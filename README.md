@@ -1,4 +1,4 @@
-# younghawn123
+# go to my notion------>(https://www.notion.so/Nvidia-AI-Specialist-Certification-Report-13d83fc878fb804e86afffa1dbf8dce1)
 # **Nvidia AI Specialist Certification Report**
 
 # **[주제 Title]**
