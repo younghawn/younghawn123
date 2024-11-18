@@ -1,6 +1,4 @@
 # go to my notion------>(https://www.notion.so/Nvidia-AI-Specialist-Certification-Report-13d83fc878fb804e86afffa1dbf8dce1)
-# **Nvidia AI Specialist Certification Report**
-
 # **[Title]**
 
 ---
@@ -11,61 +9,61 @@
 
 ---
 
-- Visually impaired individuals often face challenges in distinguishing the front from the back of clothing when dressing. With the variety in modern clothing designs and materials, relying solely on tactile cues can be challenging, highlighting the need for effective solutions. Some clothing brands currently incorporate raised tags or Braille for easier distinction; however, these methods are not universally applied across all garments and may not always be easily detectable. Therefore, AI technology presents a promising alternative to assist visually impaired individuals in overcoming these challenges.
+- Visually impaired individuals often face challenges in distinguishing the front from the back of clothing when dressing. With the variety of modern clothing designs and materials, relying solely on tactile cues can be difficult. While some clothing brands incorporate raised tags or Braille to address this issue, these methods are not universally applied and may not always be easily detectable. This highlights the need for effective and inclusive solutions. AI technology offers a promising alternative, providing innovative ways to assist visually impaired individuals in overcoming this challenge.
 
 # General description of the current project
 
 ---
 
-- This project aims to develop an AI-based clothing tag system that helps visually impaired individuals easily identify the front and back of garments. Using a smartphone app or tag reader, the system provides audio guidance on clothing orientation, supporting independent dressing and enhancing autonomy for visually impaired users.
+- This project aims to develop an AI-based clothing tag system that helps visually impaired individuals easily identify the front and back of garments. Through a smartphone app or tag reader, the system provides audio guidance for clothing orientation, promoting independence and enhancing autonomy for users.
 
-# **Proposed idea for enhancements to the project**
-
----
-
-- This project enhances accessibility for visually impaired individuals, supporting independent dressing through a user-friendly smartphone app and AI technology that intuitively identifies garment orientation. It has versatile applications in both home and public settings and contributes to creating an inclusive society with significant social value.
+# Proposed Idea for Enhancements
 
 ---
 
-# (**Image acquisition method)**
+- This project focuses on improving accessibility for visually impaired individuals by combining AI technology with a user-friendly smartphone app to identify garment orientation intuitively. The system’s versatility allows it to be applied in both home and public settings, contributing to a more inclusive society while delivering significant social value.
 
-- Clothing was filmed in various directions, and one video was produced for learning and four videos for verification.
+---
+
+# (Image Acquisition Method**)**
+
+- Clothing was filmed from various angles, resulting in one video for training and one videos three verification.
 
 ---
 
 ### **-Learning Data Images-**
 
-https://youtube.com/shorts/GoYu1WJa5rE
+https://youtube.com/shorts/6UiR7YuuXps
+
+[]()
 
 ### **-Validation Data Images-**
 
-https://youtube.com/shorts/HCJX9vd7g9I
+https://youtube.com/shorts/Q09EUnH2wfE
 
-https://youtube.com/shorts/QLN-niirask
+https://youtube.com/shorts/pdQf36FB_kE
 
-https://youtube.com/shorts/QU1YHHeT-bw
-
-https://youtube.com/shorts/-YoDbXzaBpg
+https://youtube.com/shorts/lRZ77K0CQGk
 
 # **Project Progress**
 
-## 1.(**Image extraction)**
+## 1.**Image extraction**
 
 ---
 
-- An image resolution of 640 X 640 is set using a bab mix 2 (VAMIX_2).
+- Images were extracted with a resolution of 640x640 using BabMix 2 (VAMIX_2).
 
 ![스크린샷 2024-11-13 112846.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/ffd052df-5f94-4eac-9289-e8a1ffd59391/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-13_112846.png)
 
-![스크린샷 2024-11-13 113058.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/79f5a8c4-f487-41f0-ad58-6f4337f5e58f/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-13_113058.png)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/9c5ab3e3-430f-4036-91d9-2a8d9cbd9d9e/image.png)
 
-## 2.**DarkLabel  (labels)**
+## 2.**DarkLabel (labels)**
 
 ---
 
 - **Go to the DarkLabel.exe file**
 
-[1JGpk_62UDtXw75_T9BOjZSmitk_SHDZb](https://drive.google.com/drive/folders/1JGpk_62UDtXw75_T9BOjZSmitk_SHDZb)
+[1ITgGhs8udrKtSkqBUVv6GrFhcQTH3egS](https://drive.google.com/drive/folders/1ITgGhs8udrKtSkqBUVv6GrFhcQTH3egS)
 
 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/b24c09a2-e2db-474e-8c3b-cca7ae27f498/Untitled.png)
 
@@ -73,41 +71,39 @@ https://youtube.com/shorts/-YoDbXzaBpg
 
 ---
 
-- **Create a class, "front" after generating a class, "front"**
+- **Create a class called my_classes2 and write the attribute ‘Front’ inside**
 
-![스크린샷 2024-11-13 222924.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/e912b62e-307f-46c4-a9cb-2868ca20685f/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-13_222924.png)
-
----
-
-- **In the format1 class, the classes_set is modified to "Tshirt", and the name is changed to "Tshirt".**
-
-![스크린샷 2024-11-13 223018.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/d8367c46-0f0d-4844-9af3-d76e7f1d9639/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-13_223018.png)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/d976279c-ecea-4fa7-9473-21e4094896f3/image.png)
 
 ---
 
-- **In Data, enter the name of "Tshirt" in the name.Check for train, val path.**
+- **In the Format1 class, write the classeset as my_classes2 and change the name to Front.**
 
-![스크린샷 2024-11-13 223053.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/4231ba73-d2db-46d4-a754-40bbaa83363a/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-13_223053.png)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/e95a23b0-0f18-4626-a921-8fd0b9acf6bf/image.png)
+
+---
+
+- **Write down the name 'Front' and check the path of the train and val.**
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/4e572d8a-e650-4ccf-95b9-bb490d4e2d61/image.png)
 
 ## 4.**DarkLabel  (Extract DarkLabel Labeling Data)**
 
 ---
 
-- Press the open video button to get the image and click the "Tshirt" class you set in format 9.
-Click box+label under front and press next-prediction to label each frame.
-When the labeling is completely extracted, press save as video and as images to save it in the folder.
+- **Press open video to get a learning video, click the 'Front' attribute value written earlier, and press Box+label. Label by pressing the space bar or the next and predict button. When labeling is finished, press the gt save as button to create a labeling file, and press the as image button to create an image file.**
 
-![티셔츠 라벨링.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/ad583e01-c524-4d94-a5ee-18d76bf3d1b0/%ED%8B%B0%EC%85%94%EC%B8%A0_%EB%9D%BC%EB%B2%A8%EB%A7%81.png)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/59207bd8-6636-424d-a5a7-1b3313de906e/image.png)
 
 ## 5.DarkLabel (**Check extracted labeling)**
 
 ---
 
-- Check txt extracted labeling in Tshirt labels file (float value)
+- **You can see that the learned labeling value came out as a text file.(float value)**
 
-![스크린샷 2024-11-13 235012.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/9f4dc95c-f470-49ac-a338-18830d9bb1bd/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-13_235012.png)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/20771849-9a70-464e-83c2-b80fbd8d9a32/image.png)
 
-[10hC7Rj9rhct-GgCwGhaxhUwu2iXG-L5v](https://drive.google.com/drive/folders/10hC7Rj9rhct-GgCwGhaxhUwu2iXG-L5v)
+[1D1Xv6Yth_cC2eS2fcLN6u_PcSNHvV7e-](https://drive.google.com/drive/folders/1D1Xv6Yth_cC2eS2fcLN6u_PcSNHvV7e-)
 
 ## 6. yolov5 (**Learning data with yolov5 colab)**
 
@@ -155,55 +151,55 @@ When the labeling is completely extracted, press save as video and as images to 
 
 - (tensor board)
 
-![텐서보드.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/9e718a09-c6ce-46cb-8865-57b4f4ac2890/%ED%85%90%EC%84%9C%EB%B3%B4%EB%93%9C.png)
+![스크린샷 2024-11-18 212655.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/f73fc936-afd4-4783-854f-f5ca2e769e6f/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-18_212655.png)
 
 - Confusion Matrix
 
-![confusion_matrix.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/e3b76e6a-2203-419a-bef1-b088cf6b1478/confusion_matrix.png)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/3a76f3f4-d8f9-4917-b16f-4184550e9aad/image.png)
 
 - F1-Curve
 
-![F1_curve.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/6db1e91b-6dc1-4180-9a71-dd2fa4a30b1a/F1_curve.png)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/80f80a9e-7269-4af3-becf-04e0a2ee1e35/image.png)
 
 - labels_correlogram
 
-![labels_correlogram.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/a6a730bd-f295-4410-a65c-e328065399b3/labels_correlogram.jpg)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/e6e9a142-5888-4db1-816c-002145514366/image.png)
 
 - labels
 
-![labels.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/f23e0d8b-e136-4b8f-a590-d67dc8e0b08d/labels.jpg)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/21ac0d2e-5e43-45b8-90ca-ffa95bb66afd/image.png)
 
 - P-Curve
 
-![P_curve.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/08296a0c-3355-413c-b085-d60adb01c167/P_curve.png)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/d06730dd-cc04-4706-803d-26c2bb2faf39/image.png)
 
 - Result
 
-![results.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/9daa8694-38d4-410e-988b-b3bfb74a4831/results.png)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/1cb5dae2-57d8-42cf-b773-f89798bd93a2/image.png)
 
 - Train batch 0,1,2
 
-![train_batch0.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/7d5f3137-8b69-466f-8b9a-6a554bc2bcb6/train_batch0.jpg)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/179129fb-6c0e-4c4b-b1f3-ae76e7e3e5a5/image.png)
 
-![train_batch2.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/21a52e74-0d86-4d71-a45f-2905339bdfdc/train_batch2.jpg)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/529585c4-f5de-4eca-b450-44f743af070b/image.png)
 
-![train_batch1.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/1945410b-5152-480d-89f8-a977bd425f9e/train_batch1.jpg)
-
-- Val batch,labels
-
-![val_batch0_labels.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/8c7c2d62-7997-40f0-ba87-dfaf917f56a9/val_batch0_labels.jpg)
-
-![val_batch1_pred.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/90360527-95e9-4b08-b8fe-7e582ba5da2a/val_batch1_pred.jpg)
-
-![val_batch0_pred.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/80bfe11a-505f-4b76-b799-ad9da27dd8db/val_batch0_pred.jpg)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/da132769-1775-4a04-8b4c-f9e866472704/image.png)
 
 - Val batch,labels
 
-![val_batch2_pred.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/09e8a808-5936-444a-8812-9fa6d8a80753/val_batch2_pred.jpg)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/9e916bcf-eee6-419b-ae98-ece0a568d7e7/image.png)
 
-![val_batch1_labels.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/c7e086d4-156a-4c19-b43c-30c6b4907b4d/val_batch1_labels.jpg)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/292bfc0a-c22e-477c-98e4-26dae8bb0e9a/image.png)
 
-![val_batch2_labels.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/f5eb437a-94b1-4731-beb4-f7c44b2f245a/val_batch2_labels.jpg)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/2323e029-8e1c-466d-914e-8e3d3c115353/image.png)
+
+- Val batch,labels
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/3b2a6f9b-0a34-4dcf-be19-baed2fc1279a/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/daf1d3cb-a040-4495-8269-4749b3c867bd/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/0b064698-e462-427d-b1b6-bc749c409155/image.png)
 
 ## 11.(detect)
 
@@ -213,27 +209,25 @@ When the labeling is completely extracted, press save as video and as images to 
 
 - When learning is completed in yolov5 to detect images.
 
-![스크린샷 2024-11-14 020614.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/40c3a558-1c4e-4e35-b1df-b5a8372dfc65/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-14_020614.png)
+![스크린샷 2024-11-18 212722.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/72646810-7542-438f-8fa6-b0a337962b14/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-18_212722.png)
 
 ## 12.(**detection video)**
 
-https://youtube.com/shorts/HCJX9vd7g9I
+https://youtube.com/shorts/Q09EUnH2wfE
 
-https://youtube.com/shorts/QLN-niirask
+https://youtube.com/shorts/pdQf36FB_kE
 
-https://youtube.com/shorts/QU1YHHeT-bw
-
-https://youtube.com/shorts/-YoDbXzaBpg
+https://youtube.com/shorts/lRZ77K0CQGk
 
 ## 13.(**detection images)**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/6720cb1f-4fcb-4b2f-aece-da7e43b7b966/image.png)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/d1cc5671-0ca7-44e3-853b-609e1499a2e2/image.png)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/6612eda9-23b2-4dc6-a517-59cf59391c70/image.png)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/c25ce500-6629-43a3-98dd-47938fc3733e/image.png)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/b3b957aa-8875-4f51-975c-d29cbc41afd8/image.png)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/978bf2bf-9c9a-48b2-a83a-0a8ab7246018/image.png)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/40eed938-adb8-4b25-a1a8-32775c160504/image.png)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8866741-e341-44c0-808a-bd3d3ddc73c7/7e377fcc-6f67-4d8b-b4d3-a632a7d64971/image.png)
 
 ## 14.(finish)
 
@@ -250,4 +244,3 @@ Once again, thank you to everyone for your support and contributions to this pro
 노션[(https://www.notion.so/Nvidia-AI-Specialist-Certification-Report-13d83fc878fb804e86afffa1dbf8dce1)](https://www.notion.so/Nvidia-AI-Specialist-Certification-Report-13d83fc878fb804e86afffa1dbf8dce1?pvs=21)
 
 -(Thank you for reading)-
--감사합니다.(Thank you for reading)-
