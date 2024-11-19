@@ -1,4 +1,4 @@
-# go to my notion------>(https://www.notion.so/Nvidia-AI-Specialist-Certification-Report-13d83fc878fb804e86afffa1dbf8dce1)
+# go to my notion------>([https://www.notion.so/Nvidia-AI-Specialist-Certification-Report-13d83fc878fb804e86afffa1dbf8dce1](https://tattered-innocent-ff2.notion.site/Nvidia-AI-Specialist-Certification-Report-13d83fc878fb804e86afffa1dbf8dce1))
 # **[Title]**
 
 ---
