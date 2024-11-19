@@ -103,7 +103,7 @@ https://youtube.com/shorts/lRZ77K0CQGk
 
 ![image 5](https://github.com/user-attachments/assets/b0844fe1-a965-4c61-94eb-5c138db1a25a)
 
-[1D1Xv6Yth_cC2eS2fcLN6u_PcSNHvV7e-](https://drive.google.com/drive/folders/1D1Xv6Yth_cC2eS2fcLN6u_PcSNHvV7e-)
+--------------> (Darklabel2.4 file)  [1D1Xv6Yth_cC2eS2fcLN6u_PcSNHvV7e-](https://drive.google.com/drive/folders/1D1Xv6Yth_cC2eS2fcLN6u_PcSNHvV7e-)
 
 ## 6. yolov5 (**Learning data with yolov5 colab)**
 
@@ -237,6 +237,6 @@ Finally, we want to express our sincere appreciation to our team members for the
 
 Once again, thank you to everyone for your support and contributions to this project.
 
-노션[(https://www.notion.so/Nvidia-AI-Specialist-Certification-Report-13d83fc878fb804e86afffa1dbf8dce1)](https://www.notion.so/Nvidia-AI-Specialist-Certification-Report-13d83fc878fb804e86afffa1dbf8dce1?pvs=21)
+My google drive ------------->(https://drive.google.com/drive/folders/1JW3nShGUMiz_seW_lCmzz1CR0zXKKtnc?usp=sharing)
 
 -(Thank you for reading)-
