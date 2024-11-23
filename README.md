@@ -239,6 +239,6 @@ Once again, thank you to everyone for your support and contributions to this pro
 
 My google drive ------------->(https://drive.google.com/drive/folders/1JW3nShGUMiz_seW_lCmzz1CR0zXKKtnc?usp=sharing)
 
-NVIDIA Jetson Nano Learning Video(https://drive.google.com/drive/folders/176VjtSRGkM5FlXzxwM2UxuGHIa_HfEm3?usp=sharing)
+NVIDIA Jetson Nano Learning Video([https://drive.google.com/drive/folders/176VjtSRGkM5FlXzxwM2UxuGHIa_HfEm3?usp=sharing](https://drive.google.com/drive/folders/1V6vNq71NgI34ovcYASDfd7bUjgjZsIP3?usp=sharing))
 
 -(Thank you for reading)-
